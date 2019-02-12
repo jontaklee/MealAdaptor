@@ -10,9 +10,13 @@ def get_ingredients(recipe):
     return ingrd_details
     
 def get_instructions(recipe):
-    cooking_steps = recipe['analyzedInstructions'][0]['steps']
-    instructions = [cooking_step['step'] for cooking_step in cooking_steps]
-    return instructions        
+    try:
+        cooking_steps = recipe['analyzedInstructions'][0]['steps']
+        instructions = [cooking_step['step'] for cooking_step in cooking_steps]
+        return instructions        
+    except IndexError:
+        return 'no instructions'
+
 
 def compile_attributes(recipe):
     ingredients = get_ingredients(recipe)
@@ -33,22 +37,22 @@ def compile_attributes(recipe):
 
 if __name__ == '__main__':
     
-    n = 50
+    n = 15
     
-    staples_file = '/Users/Jonathan/Desktop/insight_docs/simple_staples.csv'
+    staples_file = '/Users/Jonathan/Dropbox/viome_proj/missing_staples.csv'
     with open(staples_file, 'rb') as f:
         reader = csv.reader(f)
         food_staples = list(reader)[0]
     
     key = "ae933f0afbmshee55051062da67dp17af13jsn6937b4ef3963"
     path_get = 'https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/random?number='
-    for food in food_staples[0:1]:
+    for food in food_staples:
         response = unirest.get(path_get + str(n) + '&tags=' + food,
           headers={
             "X-RapidAPI-Key": key
           }
         )
-        print 'fetching '+str(n)+' recipes tagged '+food+' (item '+str(food_staples.index(food))+')' 
+        print 'fetching '+str(n)+' recipes tagged '+food+' (item '+str(food_staples.index(food))+')'
         
         if 'recipes' not in response.body:
             print 'no recipes tagged ' + food
@@ -59,8 +63,8 @@ if __name__ == '__main__':
         for recipe in recipes:
             recipe_simplified = compile_attributes(recipe)
             recipe_list.append(recipe_simplified)
-        outpath = '/Users/Jonathan/Desktop/recipes3/'
-        outfile = outpath + food + '_recipes3.json'
+        outpath = '/Users/Jonathan/Desktop/spoonacular_recipes/'
+        outfile = outpath + food + '_recipes6.json'
         with open (outfile, 'w') as fp:
             json.dump(recipe_list, fp)
            
