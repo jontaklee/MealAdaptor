@@ -1,0 +1,300 @@
+DisplayName,AbbrvName,Group
+Abalone,abalone,p
+Adzuki Bean,adzuki bean,p
+Alfalfa Sprout,alfalfa sprout,v
+Allspice,allspice,s
+Almond Milk,almond milk,p
+Almonds,almond,p
+Amaranth,amaranth,g
+Anchovy,anchovy,p
+Apple,apple,f
+Apricot,apricot,f
+Artichoke,artichoke,v
+Arugula,arugula,v
+Asparagus,asparagu,v
+Avocado,avocado,p
+Avocado Oil,avocado oil,o
+Bamboo Shoot,bamboo shoot,v
+Banana,banana,f
+Barley,barley,g
+Basil,basil,s
+Bay Leaf,bay leaf,s
+Bean Sprout,bean sprout,v
+Beef,beef,p
+Beef Stock,beef broth,l
+Beet,beet,v
+Beet Green,beet green,v
+Bell Pepper,bell pepper,v
+Black Bean,black bean,p
+Black Eyed Pea,black eyed pea,p
+Black Pepper,black pepper,s
+Black Tea,black tea,l
+Blackberry,blackberry,f
+Blueberry,blueberry,f
+Bok Choy,bok choy,v
+Bone Broth,bone broth,l
+Boysenberry,boysenberry,f
+Brazil Nut,brazil nut,p
+Breadfruit,breadfruit,f
+Broccoli,broccoli,v
+Brown Rice,brown rice,g
+Brussels Sprout,brussels sprout,v
+Buckwheat,buckwheat,g
+Buffalo,buffalo,p
+Bulgar,bulgar,g
+Burdock Root,burdock root,v
+Butter,butter,p
+Cabbage,cabbage,v
+Brown Sugar,brown sugar,s
+Capers,caper,s
+Caraway Seed,caraway seed,s
+Cardamom,cardamom,s
+Cardoon,cardoon,v
+Carob,carob,g
+Carrot,carrot,v
+Cashews,cashew,p
+Cassava,cassava,g
+Catfish,catfish,p
+Cauliflower,cauliflower,v
+Cayenne Pepper,cayenne pepper,s
+Celeriac,celeriac,v
+Celery,celery,v
+Celery Seed,celery seed,s
+Chard,chard,v
+Chervil,chervil,s
+Chestnuts,chestnut,p
+Chia Seed,chia seed,p
+Chicken,chicken,p
+Chicken Stock,chicken broth,l
+Chickpea,chickpea,p
+Chicory,chicory,v
+Chili Powder,chili powder,s
+Cilantro,cilantro,s
+Cinnamon,cinnamon,s
+Clam,clam,p
+Cloves,clove,s
+Cocoa,cocoa,l
+Coconut,coconut,f
+Coconut Milk,coconut milk,p
+Coconut Oil,coconut oil,o
+Coconut Water,coconut water,l
+Cod,cod,p
+Coffee,coffee,l
+Collard Green,collard green,v
+Coriander,coriander,s
+Corn Tortilla,corn tortilla,g
+Cornish Game Hen,cornish hen,p
+Cottage Cheese,cottage cheese,p
+Couscous,couscou,g
+Crab,crab,p
+Cranberry,cranberry,f
+Crayfish,crayfish,p
+Cream Cheese,cream cheese,p
+Cucumber,cucumber,v
+Cumin,cumin,s
+Currant,currant,f
+Dandelion Green,dandelion green,v
+Dates,date,f
+Dill,dill,s
+Duck,duck,p
+Eel,eel,p
+Egg,egg,p
+Egg White,egg white,p
+Egg Yolk,egg yolk,p
+Eggplant,eggplant,v
+Elderberry,elderberry,f
+Emu,emu,p
+Endive,endive,v
+Escarole,escarole,v
+Fava Bean,fava bean,p
+Fennel,fennel,v
+Fennel Seed,fennel seed,s
+Fenugreek Seed,fenugreek seed,s
+Fig,fig,f
+Flax Oil,flax oil,o
+Flax Seeds,flax seed,p
+Garlic,garlic,v
+Ghee,ghee,p
+Ginger,ginger,s
+Goat,goat,p
+Goat Cheese,goat cheese,p
+Goat Milk,goat milk,p
+Goji Berry,goji berry,f
+Goose,goose,p
+Gooseberry,gooseberry,f
+Gourd,gourd,v
+Grape,grape,f
+Grape Leaves,grape leaf,v
+Grape Seed Oil,grape seed oil,o
+Grapefruit,grapefruit,f
+Green Bean,green bean,v
+Green Tea,green tea,l
+Guava,guava,f
+Haddock,haddock,p
+Halibut,halibut,p
+Hazelnut,hazelnut,p
+Heavy Cream,heavy cream,p
+Hemp Heart,hemp heart,p
+Herbal Tea,herbal tea,l
+Herring,herring,p
+Hickory Nut,hickory nut,p
+Honey,honey,s
+Horseradish,horseradish,s
+Huckleberry,huckleberry,f
+Jackfruit,jackfruit,f
+Jalapeno,jalapeno,s
+Jerusalem Artichoke,jerusalem artichoke,v
+Jicama,jicama,v
+Kale,kale,v
+Kamut,kamut,g
+Kefir,kefir,p
+Kimchi,kimchi,v
+Kiwi,kiwi,f
+Kohlrabi,kohlrabi,v
+Kombucha,kombucha,l
+Kumquat,kumquat,f
+Lamb,lamb,p
+Leek,leek,v
+Lemon,lemon,f
+Lentil,lentil,p
+Lettuce,lettuce,v
+Lima Bean,lima bean,p
+Lime,lime,f
+Lobster,lobster,p
+Loganberry,loganberry,f
+Lotus Seeds,lotus seed,p
+Lychee,lychee,f
+Macadamia Nut,macadamia nut,p
+Mace,mace,s
+Mackerel,mackerel,p
+Mango,mango,f
+Mangosteen,mangosteen,f
+Maple Syrup,maple syrup,s
+Marionberry,marionberry,f
+Marjoram,marjoram,s
+MCT Oil,mct oil,o
+Melon,melon,f
+Millet,millet,g
+Miso,miso,l
+Molasses,molass,s
+Mulberries,mulberry,f
+Mushroom,mushroom,v
+Mussel,mussel,p
+Mustard Green,mustard green,v
+Mustard Seed,mustard seed,s
+Natto,natto,p
+Nectarine,nectarine,f
+Nutmeg,nutmeg,s
+Oats,oat,g
+Okra,okra,v
+Olive Oil,olive oil,o
+Olives,olive,p
+Onion,onion,v
+Orange,orange,f
+Oregano,oregano,s
+Ostrich,ostrich,p
+Oyster,oyster,p
+Papaya,papaya,f
+Paprika,paprika,s
+Parsley,parsley,v
+Parsnip,parsnip,v
+Passionfruit,passionfruit,f
+Peach,peach,f
+Peanut,peanut,p
+Pear,pear,f
+Peas,pea,v
+Pecan,pecan,p
+Peppermint,peppermint,s
+Perch,perch,p
+Persimmon,persimmon,f
+Pheasant,pheasant,p
+Pickle,pickle,v
+Pine Nut,pine nut,p
+Pineapple,pineapple,f
+Pinto Bean,pinto bean,p
+Pistachios,pistachio,p
+Plantain,plantain,f
+Pomegranate,pomegranate,f
+Poppy Seed,poppy seed,s
+Pork,pork,p
+Potato,potato,v
+Prune,prune,f
+Pummelo,pummelo,f
+Pumpkin,pumpkin,v
+Pumpkin Seed,pumpkin seed,p
+Quail,quail,p
+Quinoa,quinoa,g
+Radicchio,radicchio,v
+Radish,radish,v
+Radish Seed,radish seed,v
+Trout,trout,p
+Raspberry,raspberry,f
+Red Bean,red bean,p
+Rhubarb,rhubarb,f
+Rice Milk,rice milk,l
+Rice Noodle,rice noodle,g
+Roe,roe,p
+Rosemary,rosemary,s
+Rutabaga,rutabaga,v
+Rye Bread,rye bread,g
+Safflower Oil,safflower oil,o
+Saffron,saffron,s
+Sage,sage,s
+Salmon,salmon,p
+Salmonberry,salmonberry,f
+Sardine,sardine,p
+Sauerkraut,sauerkraut,v
+Savoury,savoury,s
+Scallops,scallop,p
+Sea Salt,sea salt,s
+Seaweed,seaweed,v
+Sesame Seeds,sesame seed,p
+Sheep Cheese,sheep cheese,p
+Sheep Milk,sheep milk,p
+Shrimp,shrimp,p
+Snap Peas,snap pea,v
+Sour Cherries,sour cherry,f
+Soy Milk,soy milk,p
+Soybean,soybean,p
+Spearmint,spearmint,s
+Spinach,spinach,v
+Spirulina,spirulina,v
+Squash,squash,v
+Squid,squid,p
+Star Fruit,star fruit,f
+Stevia,stevia,s
+Strawberry,strawberry,f
+Summer Squash,summer squash,v
+Sunflower Seeds,sunflower seeds,p
+Sweet Potato,sweet potato,v
+Taro,taro,v
+Tarragon,tarragon,s
+Tempeh,tempeh,p
+Tofu,tofu,p
+Tomato,tomato,v
+Triticale,triticale,g
+Tuna,tuna,p
+Turbot,turbot,p
+Turkey,turkey,p
+Turmeric,turmeric,s
+Turnip,turnip,v
+Vanilla Extract,vanilla extract,s
+Veal,veal,p
+Venison,venison,p
+Apple Cider Vinegar,cider vinegar,l
+Vinegar,vinegar,l
+Walnuts,walnut,p
+Water Chestnut,water chestnut,v
+Watercress,watercres,v
+Wheat Bread,wheat bread,g
+Wheatgrass,wheatgras,g
+White Bean,white bean,p
+White Tea,white tea,l
+Milk,milk,p
+Wild Rice,wild rice,g
+Yogurt,yogurt,p
+Zucchini,zucchini,v
+Cherry,cherry,f
+Rice,rice,g
+Cheese,cheese,p
+Plum,plum,f
