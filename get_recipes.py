@@ -1,14 +1,17 @@
 # 19 Jan 2019 Python 2.7
 # v1.0
 import csv
-import unirest
+import unirest #only compatible with Python2
 import json
 
+
+## output ingredients as lists
 def get_ingredients(recipe):
     ingrds = recipe['extendedIngredients']
     ingrd_details = [(i['name'], i['amount'], i['unit']) for i in ingrds]
     return ingrd_details
-    
+ 
+## output instructions as list of steps   
 def get_instructions(recipe):
     try:
         cooking_steps = recipe['analyzedInstructions'][0]['steps']
@@ -17,7 +20,7 @@ def get_instructions(recipe):
     except IndexError:
         return 'no instructions'
 
-
+## output dictionary of recipe attributes
 def compile_attributes(recipe):
     ingredients = get_ingredients(recipe)
     instructions = get_instructions(recipe)
@@ -37,14 +40,18 @@ def compile_attributes(recipe):
 
 if __name__ == '__main__':
     
+    ## number of recipes to request per staple
     n = 15
     
-    staples_file = '/Users/Jonathan/Dropbox/viome_proj/missing_staples.csv'
+    ## only includes staples not present in eightportions.com dataset
+    staples_file = 'missing_staples.csv'
     with open(staples_file, 'rb') as f:
         reader = csv.reader(f)
         food_staples = list(reader)[0]
     
-    key = "ae933f0afbmshee55051062da67dp17af13jsn6937b4ef3963"
+    ## request recipes, replace key with personal api key:
+    ## https://rapidapi.com/spoonacular/api/recipe-food-nutrition
+    key = '<api key>'
     path_get = 'https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/random?number='
     for food in food_staples:
         response = unirest.get(path_get + str(n) + '&tags=' + food,
@@ -59,12 +66,9 @@ if __name__ == '__main__':
             continue
 
         recipes = response.body['recipes']
-        recipe_list = []
-        for recipe in recipes:
-            recipe_simplified = compile_attributes(recipe)
-            recipe_list.append(recipe_simplified)
-        outpath = '/Users/Jonathan/Desktop/spoonacular_recipes/'
-        outfile = outpath + food + '_recipes6.json'
+        recipe_list = [compile_attributes(r) for r in recipes]
+        outpath = ''
+        outfile = outpath + food + '_recipes.json'
         with open (outfile, 'w') as fp:
             json.dump(recipe_list, fp)
            
