@@ -18,7 +18,7 @@ Topics are assigned based on the cooking directions in a recipe using LDA and re
 
 The input to MealAdaptor is a recipe, including its ingredients and preparation instructions (cooking directions). The recipe is assigned to a topic and ingredient replacements are proposed using word embeddings trained within the topic, as well as the full corpus of recipes.
 
-For each ingredient in a recipe, cosine similarity is used to select the most similar foods to serve as replacements. Of the two word2vec models, the more coherent set of suggestions is presented to the user (coherence here being the similarity between the suggested replacements). These suggestions are then curated based on the user's dietary suggestions of foods to consume more or less of.
+For each ingredient in a recipe, cosine similarity is used to select the most similar foods to serve as replacements. Of the two sets of suggestions, the more coherent set is presented to the user (coherence being the similarity between the suggested replacements). These suggestions are then curated based on the user's dietary suggestions of foods to consume more or less of.
 
 ## Contents
 
