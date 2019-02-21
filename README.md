@@ -1,4 +1,4 @@
-<img src='../master/images/logo.png' width='800' />
+#MealAdaptor
 
 MealAdaptor was developed to to assist [Viome](https://www.viome.com/) users in integrating dietary suggestions into their meals. 
 
@@ -22,6 +22,8 @@ The gensim library is required to load and employ the LDA and Word2Vec models.
 A [RapidAPI](https://rapidapi.com/spoonacular/api/recipe-food-nutrition) key is required to request recipes from spoonacular using the get_recipes.py script. (Note: The unirest library is required for API calls, and is not compatible with Python3.)
 
 ## Demo
+
+<img src='../master/images/logo.png' width='400' />
 
 A demo is available at [MealAdaptor.com](http://www.mealadaptor.com/). It was built using:
 
