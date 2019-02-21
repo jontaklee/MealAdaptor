@@ -2,6 +2,8 @@
 
 MealAdaptor was developed to to assist [Viome](https://www.viome.com/) users in integrating dietary suggestions into their meals. 
 
+<img src='../master/images/pipe.png' width='600' />
+
 ## Contents
 
 The **implement_mealadaptor** notebook includes all necessary code to load the trained LDA and Word2Vec models, as well as functions for getting ingredient substitutions.
