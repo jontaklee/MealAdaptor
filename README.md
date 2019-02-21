@@ -2,10 +2,10 @@
 
 MealAdaptor was developed to to assist [Viome](https://www.viome.com/) users in integrating dietary suggestions into their meals. 
 
-<img src='../master/images/pipe.png' width='600' />
+<img src='../master/images/pipe.png' width='450' />
 
 
-<img src='../master/images/approach.png' width='600' />
+<img src='../master/images/approach.png' width='450' />
 
 
 ## Contents
