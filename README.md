@@ -18,6 +18,7 @@ The nltk and inflect libraries are required to preprocess recipes for downstream
 The gensim library is required to load and employ the LDA and Word2Vec models.
 
 A [RapidAPI](https://rapidapi.com/spoonacular/api/recipe-food-nutrition) key is required to request recipes from spoonacular using the get_recipes.py script. 
+
 Note: The unirest library is required for API calls, and is not compatible with Python3.
 
 ## Demo
