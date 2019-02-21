@@ -1,4 +1,4 @@
-#MealAdaptor
+# MealAdaptor
 
 MealAdaptor was developed to to assist [Viome](https://www.viome.com/) users in integrating dietary suggestions into their meals. 
 
