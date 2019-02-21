@@ -1,15 +1,24 @@
 # MealAdaptor
 
-MealAdaptor was developed to to assist [Viome](https://www.viome.com/) users in integrating dietary suggestions into their meals. 
+MealAdaptor was built to help [Viome](https://www.viome.com/) users integrate dietary suggestions into their meals by providing suggested ingredient substitutions. 
+
+Ingredient substitutions are provided using two word embedding models). 
 
 <p align="center">
 <img src='../master/images/pipe.png' width='450' />
 </p>
 
+The first model is trained on a corpus of 100,000+ recipes. The second is selected from one of four models trained on a topical subset of recipes. Both utilize the Skip Gram method of Word2Vec.
+
 <p align="center">
 <img src='../master/images/approach.png' width='450' />
 </p>
 
+Topics are assigned based on the cooking directions in a recipe using LDA and represent types of dishes (savory meals, desserts, etc.). In this manner, word embeddings are trained in a more contextual manner that considers the relationship between ingredients only among similar dishes.
+
+The input to MealAdaptor is a recipe, including its ingredients and preparation instructions (cooking directions). The recipe is assigned to a topic and ingredient replacements are proposed using word embeddings trained within the topic, as well as the full corpus of recipes.
+
+For each ingredient in a recipe, cosine similarity is used to select the most similar foods to serve as replacements. Of the two word2vec models, the more coherent set of suggestions is presented to the user (coherence here being the similarity between the suggested replacements). These suggestions are then curated based on the user's dietary suggestions of foods to consume more or less of.
 
 ## Contents
 
